@@ -1,0 +1,15 @@
+service: vikaas-signal-detector
+frameworkVersion: '4'
+
+provider:
+  name: aws
+  runtime: python3.9
+  # We specify the region and stage just to satisfy standard serverless config, 
+  # even though we are strictly running this locally.
+  stage: dev
+  region: us-east-1
+
+functions:
+  extractSignals:
+    # This tells the framework to look in handler.py for a function named detect_signals
+    handler: handler.detect_signals

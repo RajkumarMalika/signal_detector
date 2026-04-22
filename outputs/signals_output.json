@@ -1,6 +1,6 @@
 [
     {
-        "company": "Unknown (HackerNews Discussion (HackerRank Complaints))",
+        "company": "Unknown (HackerNews Discussion (HackerRank))",
         "signal_type": "competitor_grievance",
         "source_url": "https://news.ycombinator.com/item?id=31094484",
         "matched_keywords": [
@@ -9,7 +9,7 @@
             "red flag"
         ],
         "signal_score": 80,
-        "detected_at": "2026-04-19T13:38:24.951424+00:00",
+        "detected_at": "2026-04-22T14:31:27.986908+00:00",
         "reason": "Negative feedback about hackerrank regarding Fairness, General Grievance",
         "extracted_pain_points": [
             "Fairness",
